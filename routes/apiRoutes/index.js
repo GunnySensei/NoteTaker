@@ -37,7 +37,7 @@ router.post("/notes", (req, res) => {
   }
 });
 
-router.delete((req, res) => {
+router.delete("/notes/:id", (req, res) => {
   console.info("delete");
   const result = req.params.id;
 
@@ -51,5 +51,7 @@ router.delete((req, res) => {
   fs.writeFileSync(__dirname + "/../../db/db.json", parsedNotes, (err) => {
     if (err) throw err;
   });
+
+  res.end();
 });
 module.exports = router;

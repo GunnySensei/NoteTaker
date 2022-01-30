@@ -8,7 +8,7 @@ Unlicensed
 
 ## Links
 
-<a src="https://serene-inlet-66143.herokuapp.com/">Heroku Live Application </a>
+- [Heroku Live Application](https://serene-inlet-66143.herokuapp.com/)
 
 ##Table of Contents
 

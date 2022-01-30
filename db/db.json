@@ -1,1 +1,19 @@
-{"notes":[]}
+{
+  "notes": [
+    {
+      "title": "test",
+      "text": "testing",
+      "id": "0"
+    },
+    {
+      "title": "test",
+      "text": "testing",
+      "id": "1"
+    },
+    {
+      "title": "test",
+      "text": "testing",
+      "id": "2"
+    }
+  ]
+}
